@@ -5,20 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business promotion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@600&family=Poppins:wght@400;500;600&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="./index.html"><img src="./images/logo-min.png" alt="logo">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./Pricing.html">Pricing</a></li>
-                <li><a href="./Customers.html">Customers</a></li>
-                <li><a href="./Resources.html"></a>Resources</li>
+        <nav class="header-nav">
+
+
+            <a class="header-nav-logo" href="./index.html"><img src="./images/logo-min.png" alt="logo">Product</a>
+
+
+            <ul class="header-nav-item">
+                <li><a class="header-nav-title active" href="./index.html">Product</a></li>
+                <li><a class="header-nav-title" href="./Pricing.html">Pricing</a></li>
+                <li><a class="header-nav-title" href="./Customers.html">Customers</a></li>
+                <li><a class="header-nav-title" href="./Resources.html">Resources</a></li>
             </ul>
-            <button type="button">Sign In</button>
-            <button type="button">Sign Up</button>
+
+
+            <div class="header-btn">
+                <button class="header-btn-item" type="button">Sign In</button>
+                <button class="header-btn-item sing-up" type="button">Sign Up</button>
+            </div>
         </nav>
     </header>
 
