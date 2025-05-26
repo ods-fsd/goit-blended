@@ -1,5 +1,7 @@
 body {
-	margin: 0;
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0;
 }
 
 h1,
@@ -35,10 +37,14 @@ a {
 }
 /* ------------------------------------------------------------------------ */
 
+/* --- HEADER --- */
+
 .header-nav {
 	display: flex;
+	margin-left: 20px;
 }
 .header-nav-logo {
+	font-family: "Poppins", sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 93%;
@@ -49,15 +55,13 @@ a {
 }
 
 .header-nav-item {
-	margin-left: 237px;
-	text-align: center;
-	margin: 0;
 	display: flex;
-	margin-left: 273px;
+	margin: auto;
 	gap: 30px;
 }
 
 .header-nav-title {
+	font-family: "Poppins", sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 175%;
@@ -72,11 +76,12 @@ a {
 .header-btn {
 	display: flex;
 	gap: 21px;
-	padding-top: 19px;
-	padding-left: 27px;
+	margin: auto;
+	padding-right: 20px;
 }
 
 .header-btn-item {
+	font-family: "Poppins", sans-serif;
 	border-radius: 4px;
 	border: 1px solid #bcd0e5;
 	font-weight: 600;
@@ -93,3 +98,246 @@ a {
 	color: #fff;
 	background: #02897a;
 }
+
+/* --- /HEADER --- */
+
+/* --- MAIN --- */
+
+/* --- 1 SECTION Title --- */
+.titlebar-sec {
+	display: flex;
+}
+
+.titlebar {
+	display: block;
+	width: 465px;
+	margin-left: 20px;
+}
+.titlebar-h {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 150%;
+	color: #22343d;
+	margin-top: 112px;
+}
+.titlebar-p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 156%;
+	color: #22343d;
+	margin-top: 18px;
+}
+
+.title-btn-box {
+	display: flex;
+	margin-top: 45px;
+	gap: 30px;
+}
+
+.titlebar-btn-started {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 4px;
+	width: 178px;
+	height: 53px;
+	background: #02897a;
+}
+
+.titlebar-btn-watch,
+img {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #02897a;
+	display: flex;
+	align-items: center;
+	background: none;
+	gap: 9px;
+}
+
+.titlebar-img {
+	width: 610px;
+	margin-top: 25px;
+	margin-left: 35px;
+	width: 610px;
+}
+
+/* --- 1 SECTION Title --- */
+/* --- 2 SECTION Product --- */
+
+.product {
+	display: block;
+}
+
+.div-product-h {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.product-h {
+	font-weight: 700;
+	font-size: 32px;
+	text-align: center;
+	color: #22343d;
+}
+
+.product-list {
+	display: flex;
+	width: calc((100%-90px) / 4);
+}
+
+.product-list-item {
+	margin-left: 30px;
+}
+
+.product-list-item-img {
+	border-radius: 19px;
+	width: 54px;
+	height: 54px;
+}
+
+.product-list-item-h {
+	margin-top: 18px;
+	font-weight: 600;
+	font-size: 22px;
+	color: #22343d;
+}
+.product-list-item-p {
+	margin-top: 13px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 162%;
+	color: #22343d;
+}
+
+.product-btn {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 4px;
+	width: 175px;
+	height: 53px;
+	background: #02897a;
+	margin-top: 50px;
+	margin-left: calc(50% - 87px);
+}
+/* --- 2 SECTION Product --- */
+/* --- 3 SECTION Managment --- */
+
+.section {
+	display: flex;
+	margin-left: 20px;
+}
+
+.sec-txt-img {
+	width: 486px;
+}
+
+.p-bold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #22343d;
+	margin-top: 141px;
+}
+
+.sec-h {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #22343d;
+	margin-top: 8px;
+}
+.p-text {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 162%;
+	color: #22343d;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.sec-txt-item-h {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 162%;
+	color: #22343d;
+	margin-top: 25px;
+}
+
+.sec-txt-item-p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 162%;
+	color: #22343d;
+	margin-top: 12px;
+}
+
+.sec-img {
+	margin-top: 100px;
+	margin-left: 84px;
+}
+
+/* --- 3 SECTION Managment --- */
+/* --- 4 SECTION Customer Support --- */
+
+.asection {
+	display: flex;
+	margin-left: 20px;
+}
+.asec-img {
+	width: 540px;
+}
+.sec-img-txt {
+	width: 451px;
+	padding-top: 41px;
+	margin-left: 84px;
+}
+.asec-p-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #22343d;
+	margin-bottom: 8px;
+}
+.asec-h {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	color: #22343d;
+	margin-bottom: 25px;
+}
+.asec-p {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 162%;
+	color: #22343d;
+}
+
+.asec-ul {
+	margin-top: 30px;
+}
+
+.asec-li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.asec-li-p {
+	margin-left: 30px;
+}
+
+/* --- 4 SECTION Customer Support --- */
+
+/* --- /MAIN --- */
